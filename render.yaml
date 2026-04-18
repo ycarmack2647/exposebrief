@@ -1,0 +1,21 @@
+# Render Blueprint: https://render.com/docs/infrastructure-as-code
+# New > Blueprint > connect this repo. Creates API + dashboard; wires EXPOSEBRIEF_API.
+
+services:
+  - type: web
+    name: exposebrief-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+
+  - type: web
+    name: exposebrief-dashboard
+    runtime: docker
+    dockerfilePath: ./Dockerfile.dashboard
+    healthCheckPath: /
+    envVars:
+      - key: EXPOSEBRIEF_API
+        fromService:
+          name: exposebrief-api
+          type: web
+          envVarKey: RENDER_EXTERNAL_URL
