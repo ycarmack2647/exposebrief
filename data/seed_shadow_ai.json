@@ -1,0 +1,22 @@
+[
+  {"name": "Microsoft Copilot", "domain": "copilot.microsoft.com", "sanctioned": true, "weight": 25, "category": "sanctioned_ai"},
+  {"name": "ChatGPT Enterprise", "domain": "chatgpt.com", "sanctioned": true, "weight": 18, "category": "sanctioned_ai"},
+  {"name": "ChatGPT (personal)", "domain": "chat.openai.com", "sanctioned": false, "weight": 14, "category": "shadow_ai"},
+  {"name": "Claude (personal)", "domain": "claude.ai", "sanctioned": false, "weight": 9, "category": "shadow_ai"},
+  {"name": "DeepSeek", "domain": "chat.deepseek.com", "sanctioned": false, "weight": 7, "category": "shadow_ai", "risk_flag": "foreign_ai_platform"},
+  {"name": "Gemini (personal)", "domain": "gemini.google.com", "sanctioned": false, "weight": 6, "category": "shadow_ai"},
+  {"name": "Character.AI", "domain": "character.ai", "sanctioned": false, "weight": 5, "category": "shadow_ai"},
+  {"name": "Perplexity", "domain": "perplexity.ai", "sanctioned": false, "weight": 5, "category": "shadow_ai"},
+  {"name": "Poe", "domain": "poe.com", "sanctioned": false, "weight": 4, "category": "shadow_ai_aggregator"},
+  {"name": "HuggingChat", "domain": "huggingface.co", "sanctioned": false, "weight": 3, "category": "shadow_ai"},
+  {"name": "You.com", "domain": "you.com", "sanctioned": false, "weight": 3, "category": "shadow_ai"},
+  {"name": "Pi", "domain": "pi.ai", "sanctioned": false, "weight": 2, "category": "shadow_ai"},
+  {"name": "Mistral Chat", "domain": "chat.mistral.ai", "sanctioned": false, "weight": 2, "category": "shadow_ai"},
+  {"name": "Qwen Chat", "domain": "qwenlm.ai", "sanctioned": false, "weight": 2, "category": "shadow_ai", "risk_flag": "foreign_ai_platform"},
+  {"name": "Kimi", "domain": "kimi.moonshot.cn", "sanctioned": false, "weight": 2, "category": "shadow_ai", "risk_flag": "foreign_ai_platform"},
+  {"name": "Jasper", "domain": "jasper.ai", "sanctioned": false, "weight": 2, "category": "shadow_ai"},
+  {"name": "Copy.ai", "domain": "copy.ai", "sanctioned": false, "weight": 2, "category": "shadow_ai"},
+  {"name": "Writesonic", "domain": "writesonic.com", "sanctioned": false, "weight": 1, "category": "shadow_ai"},
+  {"name": "Grammarly GO", "domain": "grammarly.com", "sanctioned": false, "weight": 3, "category": "shadow_ai"},
+  {"name": "Notion AI (personal)", "domain": "notion.so", "sanctioned": false, "weight": 2, "category": "shadow_ai"}
+]
