@@ -28,19 +28,10 @@ v0.2 replaces the mock generators with real Microsoft Graph connectors and adds 
 
 If you're designing similar pipelines — Purview → orchestration → SIEM → executive reporting — I'd genuinely love to compare notes.
 
-🔗 GitHub: github.com/<you>/exposebrief
 
 `#DataSecurity #SecurityArchitecture #MicrosoftPurview #DLP #ShadowAI #AIGovernance #ZeroTrust #CloudSecurity #BuildInPublic`
 
 ---
-
-## Editorial notes
-
-- **Opening tension** mirrors your original ExposeBrief post formula ("signals vs. decisions") but swaps in the actual v0.1 problem statement ("three streams, no unified answer") so the post earns the attention it asks for
-- **Four bolded layers** matches your established scanning pattern for LinkedIn mobile
-- **"Moving toward" Data Security Architect** — kept verbatim from your prior post, since it's the most confident form of career framing without overclaiming
-- **"Categorically different"** language on the multiplier logic is the line that will land with architects and hiring managers — it demonstrates you understand *why* the scoring model matters, not just that you built one
-- **Close is unchanged peer-invitation** — works for your network-building goals without being salesy
 
 ## Suggested post timing
 
