@@ -32,7 +32,3 @@ If you're designing similar pipelines — Purview → orchestration → SIEM →
 `#DataSecurity #SecurityArchitecture #MicrosoftPurview #DLP #ShadowAI #AIGovernance #ZeroTrust #CloudSecurity #BuildInPublic`
 
 ---
-
-## Suggested post timing
-
-Tuesday or Wednesday morning, 8–10am ET. Federal contractor recruiters and Microsoft security ecosystem people are most active midweek mornings. Avoid Monday (inbox catchup) and Friday (weekend pre-check-out).
